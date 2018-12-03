@@ -4,10 +4,10 @@ import datetime
 
 from influxdb import InfluxDBClient
 
-BASE_URL = 'http://local.dev:9000'
+BASE_URL = 'http://52.63.18.73:9000'
 USER = os.environ['SONAR_USER']
 PASSWORD = os.environ['SONAR_PASSWORD']
-INFLUX_URL = 'local.dev'
+INFLUX_URL = '52.63.18.73'
 INFLUX_USER = os.environ['INFLUX_USER']
 INFLUX_PASSWORD = os.environ['INFLUX_PASSWORD']
 INFLUX_DB = os.environ['INFLUX_DB']
